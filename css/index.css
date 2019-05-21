@@ -1,0 +1,472 @@
+/*
+Index of Contents
+=================
+
+- Base Elements
+	- Body tag
+	- Heading tags
+- Layout Element
+	- Header Class
+	- Hero Class 
+	- Project Class
+
+---------------------------------
+
+*/
+
+/*Base Elements
+------------------------------------------------*/
+
+* {
+margin: 0;
+}
+
+/* Body tag
+_________________________*/
+
+	body {
+		font-family: "Source Sans Pro",Arial, sans-serif;
+	}
+
+
+/*Heading Tags
+___________________________*/
+
+	h1 , h2 , h3 , h4 , h5 , h6 {
+
+		font-size: 30px;
+		font-family: "Fjalla One"
+
+	}
+
+	h1 {
+		line-height: 150%; /*el alto y medio de la tipografia*/
+		font-size: 40px;
+
+		/*Estilos de fuentes*/
+		font-weight: normal;
+		letter-spacing: -.2px;
+		text-transform: capitalize;
+		margin: 0;
+		padding: 15px
+	}
+
+
+/*Layout Elements
+------------------------------------------------*/
+
+/* Header Class
+__________________________________________*/
+
+	.header {
+
+		display: flex;
+
+		/*Colores*/
+		background-color: #1b2127;
+		color: white;
+
+		/*Modelo de Caja*/
+		width: 96%;
+		margin: 0;
+		padding: 0 2%;
+		height: 70px;
+
+		/*Alineacion*/
+		align-items: center;
+		justify-content: space-between;
+
+		/*Ornamentos*/
+		position: fixed;
+		top: 0px;
+	}
+
+	.header .logo img {
+		height: 70px;
+	}
+
+	.header .menu {
+		height: inherit;	
+	}
+
+	.header .menu ul {
+		display: flex;
+		height: inherit;
+		align-items: center;
+	}	
+
+	.header .menu li {
+
+		list-style-type: none;
+		padding: 0  15px;
+		height: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header .menu li a {
+		height: inherit;
+		display: flex;
+		align-items: center;
+		color: white;
+		text-decoration: unset;
+	}
+
+/* Hero Class
+__________________________________________*/
+
+
+	.hero {
+		margin-top: 70px;
+		height: 400px;
+
+		background-color: #1b2127;
+		color: white;
+
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		}
+
+	.hero h1 {
+		padding: 6% 0;
+
+	}
+
+	.hero h1 strong {
+		color: #026fff;
+	}
+
+	.hero img {
+
+		width: 500px;
+		height: 100%;
+		object-fit: cover;
+	}
+
+
+
+/*
+gris oscuro = #1d252c
+gris claro = #626262
+background gris = 1b2127
+celeste = 026fff
+gris claro claro = fafafa
+
+*/
+
+
+/*Portfolio Class
+__________________________________________*/
+
+
+.portfolio {
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 30px 5px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.portfolio h2 {
+	text-transform: uppercase;
+	color: #026fff;
+	padding: 20px;
+	padding-bottom: 40px;
+	font-family: "Source Sans Pro",Arial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+
+}
+
+
+/* Project Class
+___________________________*/
+
+	.project {
+		background-color: white;
+		display: flex;
+
+		padding: 20px;
+
+		border: 1px solid lightgray;
+		border-radius: 10px;
+
+		border-bottom-right-radius: 60px;
+
+		margin: 10px auto;
+		margin-bottom: 15px;
+		max-width: 900px;
+		width: 80%;
+
+		box-shadow: 5px 5px 5px gray;
+
+		justify-content: space-around;
+		align-items: center;
+		overflow: hidden;
+
+	}
+
+
+	.project-text {
+
+		width: 250px;
+		padding-top: 30px;
+
+	}
+
+	.project-title {
+		font-size: 24px;
+	}
+
+	.project-course {
+		color: gray;
+		font-size: 14px;
+		padding: 8px 0;
+	}
+
+	.project-description {
+		margin: 15px 0;
+		font-size: 18px;
+	}
+
+	.project-image-container {
+		width: 400px;
+		}
+
+	.project strong {
+		font-family: "Fjalla One" sans-serif;
+		font-size: 14px;
+	}
+
+/*Events
+_____________________*/
+
+
+	.events {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.event {
+		background-color: white;
+		display: flex;
+
+		padding: 0px;
+
+		border-radius: 10px;
+
+		margin: 10px auto;
+		margin-bottom: 15px;
+		width: 600px;
+
+		box-shadow: 5px 5px 5px lightgray;
+
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+
+		overflow: hidden;
+		flex-shrink: 0;
+
+		background-color: #f4fbff;
+
+	}
+
+	.events h2 {
+	text-transform: uppercase;
+	color: #026fff;
+	padding: 20px;
+	padding-bottom: 40px;
+	font-family: "Source Sans Pro",Arial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	width: 900px;
+	margin-top: 20px;
+
+}
+
+.event figure {
+	width: inherit;
+}
+
+.event-image {
+	width: inherit;
+	height: 200px;
+	object-fit: cover;
+}
+
+.event-text-container {
+
+	margin: 10%;
+	margin-top: -30px;
+
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+}
+
+.event-title {
+	padding: 30px;
+}
+
+
+.event-link {
+
+	display: block;
+
+	color: #026fff;
+	border: 1px solid;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 100px;
+
+}
+
+.event-description {
+	padding: 30px; 
+	padding-top: 0;
+
+	margin: 0 50px; 
+	text-align: left; 	
+}
+
+/*Contact
+_____________________*/
+
+.contact {
+	background-color: #056fff;
+	color: white;
+	padding: 20px 30px;
+
+	display: flex;
+
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-form h2 {
+	padding: 20px 0;
+	font-family: "Source Sans Pro",Arial, sans-serif;
+
+}
+
+.contact-form input {
+
+	border: 1px solid gray;
+	border-radius: 10px;
+
+	padding: 15px 20px 15px 35px;
+
+	display: block;
+
+	background-image: url("../images/envelope.svg");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+}
+
+.contact-form button {
+	display: block;
+	margin-top: 10px;
+	background-color: transparent;
+
+	padding: 10px 20px;
+
+	font-size: 18px;
+
+	color: white;
+	border: solid 1px;
+}
+
+.social-link {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+}
+
+.social-link.twitter {
+	background-image: url("../images/twitter.svg");
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.social-link.facebook {
+	background-image: url("../images/facebook.svg");
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.social-link.instagram {
+	background-image: url("../images/instagram.svg");
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.social-link.github {
+	background-image: url("../images/github.svg");
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+
+/*Footer
+-------------*/
+
+.footer {
+
+		display: flex;
+
+		/*Colores*/
+		background-color: #1b2127;
+		color: white;
+
+		/*Modelo de Caja*/
+		width: 96%;
+		margin: 0;
+		padding: 0 2%;
+		height: 89px;
+
+		/*Alineacion*/
+		align-items: center;
+		justify-content: space-between;
+
+		/*Ornamentos*/
+		border-top: 1px solid white;
+
+	}
+
+.footer .logo {
+	height: 30px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.container {
+
+	width: 1300px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+
+}

@@ -1,0 +1,6 @@
+margin collapsing explica que cuando dos elementos colindan, aquel que tenga el margen con un valor mayor sera el margen que se rendereara para ambos
+
+si hay un margen de 30px y uno de 10px se computa 30px
+
+no la suma de ambos como pudieras pensar
+

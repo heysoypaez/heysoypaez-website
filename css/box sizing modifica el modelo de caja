@@ -1,0 +1,23 @@
+box sizing modifica el modelo de caja
+
+el ancho de tu caja e sigual a su ancho + padding + border
+
+con box-sizing: border-box
+
+nunca va a ser superior al width
+
+
+--------
+
+
+Display
+
+display: none
+
+display blocl hara que un elemento ocupe todo el ancho que tenga disponible
+
+display block es necesario en general para que un elemento funcione como contenedor
+
+bloque es una seccion horizontal
+
+	no le puedes pasar un ancho a inline
