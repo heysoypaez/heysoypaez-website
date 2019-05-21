@@ -157,6 +157,21 @@ gris claro claro = fafafa
 
 */
 
+/* Filtering people
+___________________________-*/
+
+.filtering-people {
+	padding: 0 15%;
+	
+}
+
+.filtering-people h1 {
+	text-align: center;
+}
+
+.filtering-people p {
+	font-size: 18px;
+}
 
 /*Portfolio Class
 __________________________________________*/
@@ -338,6 +353,69 @@ _____________________*/
 	text-align: left; 	
 }
 
+
+/* service Class
+___________________________*/
+
+	.service {
+		background-color: black;
+		color: white;
+		display: flex;
+
+		padding: 20px;
+
+		border: 1px solid lightgray;
+		border-radius: 10px;
+
+		border-bottom-right-radius: 60px;
+
+		margin: 10px auto;
+		margin-bottom: 15px;
+		max-width: 600px;
+		width: 40%;
+
+		box-shadow: 5px 5px 5px gray;
+
+		justify-content: space-around;
+		align-items: center;
+		overflow: hidden;
+
+	}
+
+
+	.service-text {
+
+		width: 250px;
+		padding-top: 30px;
+
+	}
+
+	.service-title {
+		font-size: 24px;
+	}
+
+	.service-course {
+		color: gray;
+		font-size: 14px;
+		padding: 8px 0;
+	}
+
+	.service-description {
+		margin: 15px 0;
+		font-size: 18px;
+	}
+
+	.service-image-container {
+		width: 300px;
+		}
+
+	.service strong {
+		font-family: "Fjalla One" sans-serif;
+		font-size: 14px;
+	}
+
+
+
 /*Contact
 _____________________*/
 
@@ -401,16 +479,12 @@ _____________________*/
 	background-repeat: no-repeat;
 }
 
-.social-link.facebook {
-	background-image: url("../images/facebook.svg");
-	background-size: 80px 80px;
-	background-repeat: no-repeat;
-}
 
-.social-link.instagram {
-	background-image: url("../images/instagram.svg");
+.social-link.linkedin {
+	background-image: url("../images/linkedin-logo.svg");
 	background-size: 80px 80px;
 	background-repeat: no-repeat;
+	fill: white;
 }
 
 .social-link.github {
