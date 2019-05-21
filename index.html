@@ -1,8 +1,371 @@
-<html>
-<head> </head>
-<title> Hey! Soy Páez </title>
+<!DOCTYPE html> <!-- Declarando el tipo de doc-->
+<html lang="es">
+<head>
+
+	
+	<meta charset="utf-16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="icon" type="image/png" href="./images/favicon.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+
+
+	<title>Hey! Daniel Páez</title>
+
+</head>
 <body>
-<h1>Yo soy Daniel Páez</h1>
+
+<!-- Header  -->
+	<header class="header">
+
+		<div class="container">
+		<section class="logo">
+			
+			<h1>Daniel Páez</h1>
+		</section>
+
+		<nav class="menu">
+			<ul>
+		
+				<li>
+					<a class="link" href="#portafolio">Portafolio</a>
+				</li>
+
+				<li>
+					<a class="link" href="#eventos">Blog</a>
+				</li>
+
+				<li>
+					<a class="link" href="#contacto">Trabajemos Juntos</a>
+				</li>
+			</ul>
+		</nav>
+		</div>
+
+
+	</header>
+
+<!-- Content  -->
+	<section class="hero">
+		<div class="container">
+		<h1>
+			Hello, <strong>Daniel Páez acá</strong><br />
+			ingeniero-artista de <strong> Software </strong> <br /> 
+			<strong>¡React Developer!</strong>
+		</h1>
+		<video
+
+			src="./public/videos/daniel-paez-hablando-en-mudo.mp4" 
+			height="400px" 
+			autoplay 
+			loop 
+			muted
+			
+		> 
+		</video> 
+	</div>
+	</section>
+
+	<section class="filtering-people">
+		<h1>El Software genera impacto positivo</h1>
+		<p>Un Desarrollador es una persona que pone un 1 donde habia un 0, una persona que dibuja en un computador las máquinas que se ha vuelto capaz de visionar en su mente.</p>
+		<p> Estoy convencido que tu persona, tus proyectos, esa empresa, organizacion de la que eres parte puede experimentar un impacto positivo con un Desarrollador <strong>que actúa en base a Principios</strong> dentro de él. </p>
+	</section>
+
+	<section class="portfolio" id="portafolio">
+		<div class="container">
+		<h2>Portafolio (Proyectos Destacados)</h2>
+
+		<article class="project">
+
+			<div class="project-text">
+				<h3 class="project-title">Paty Time</h3>
+
+				<h6 class="project-course">React</h6>
+
+				<p class="project-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p project-link> 
+					<strong>Puedes verlo en:</strong> <a href="https://github.com/heysoypaez/patytime">Github Patytime</a>
+				</p>
+
+				<p  class="project-description">
+					Paty time! La web que estoy desarrollando actualmente para <a href="https://www.instagram.com/paty.time/" target="_blank">una artista</a>, dibujante, fashion designer que de verdad creo que deberías conocer, es fantástica
+				</p>
+
+			</div>
+			<figure class="project-image-container">
+
+				<img class="project-image" 
+					 src="./images/patytime-home-view.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+
+		<article class="project">
+
+			<div class="project-text">
+				<h3 class="project-title">Calculadona</h3>
+
+				<h6 class="project-course">Javascript Vanilla</h6>
+
+				<p class="project-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p project-link> 
+					<strong>Puedes verlo en:</strong> <a href="https://github.com/heysoypaez/calculadona"> Calculadona github</a>
+				</p>
+
+				<p>
+					Una aplicacion web que calcula los numeros relevantes para un negocio de donas y hace algo útil con eso
+				</p>
+
+			</div>
+			<figure class="project-image-container">
+
+				<img class="project-image" 
+					 src="./images/calculadona-home-view.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+
+		<article class="project">
+
+			<div class="project-text">
+				<h3 class="project-title">Platzi Video</h3>
+
+				<h6 class="project-course">Javascript Vanilla / SASS / APIs fetch</h6>
+
+				<p class="project-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p project-link> 
+					<strong>Puedes verlo en:</strong> <a href="https://github.com/heysoypaez/platzi-video">Platzi video github</a>
+				</p>
+
+				<p>
+					Aplicacion que desarrolle junto a Platzi donde aplico aprendizajes para pasar programacion de jquery a js puro, además hago llamadas GET a APIs publicas externas
+				</p>
+
+			</div>
+			<figure class="project-image-container">
+
+				<img class="project-image" 
+					 src="./images/platzi-video-home-view.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+		</div>
+	</section>
+
+	<section class="events" id="eventos">
+		<div class="container">
+
+			<h2>Comparto lo que aprendo y acciono</h2>
+
+			<article class="event">
+
+				<figure class="event-image-container">
+					<img
+	 				 class="event-image"
+					 src="https://www.enmicocinahoy.cl/wp-content/uploads/2013/03/donas-caseras-5-1024x666.jpg" 
+					 alt="Imagen Platzi Conf"
+					 width="500px" height="300px"
+					/>
+				</figure>
+
+				<figcaption class="event-text-container">
+					<h3 class="event-title">Gestionando errores en mi calculadona</h3>
+					<p class="event-description">El dia de hoy estoy pensando que me parece fascinante como algo tan simple y pequeño que me propuse como proyecto personal: la calculadona me ha dado tantos obstaculos y me ha hecho ver mi desconocimiento mientras lo programo...</p>
+
+				<a 
+				  class="event-link"
+				  href="https://www.linkedin.com/pulse/dia-77-gestionando-errores-en-mi-calculadona-daniel-p%C3%A1ez-soto/"
+				  target="_blank"
+				>
+				Leer completo
+				</a>
+				</figcaption>
+			</article>
+
+			<article class="event">
+
+				<figure class="event-image-container">
+					<img
+	 				 class="event-image"
+					 src="https://myventurepad.com/wp-content/uploads/2017/05/storage.jpg" 
+					 alt="Imagen Platzi Conf"
+					 width="500px" height="300px"
+					/>
+				</figure>
+
+				<figcaption class="event-text-container">
+					<h3 class="event-title">¿Cómo guardar los datos de mi aplicación web en memoria local?</h3>
+					<p class="event-description">Abre una nueva pestaña ahora mismo y entra a twitter o facebook, la red social que tú utilices y respondeme algo<br /> 
+
+¿Entro de inmediato en tu cuenta personal y tardó muy poco en abrir?, ¿Verdad?<br />
+
+Si fue asi es porque están usando memoria caché... </p>
+
+				<a 
+				  class="event-link"
+				  href="https://www.youtube.com/watch?v=BIS7cWGgJg0"
+				  target="_blank"
+				>
+				Leer completo
+				</a>
+				</figcaption>
+			</article>
+		</div>
+	</section>
+
+		<section class="portfolio" id="portafolio">
+		<div class="container">
+		<h2>Mis Servicios para ti, Quiero ayudarte, asi puedo hacerlo</h2>
+
+		<article class="service">
+
+			<div class="service-text">
+				<h3 class="service-title">Full-time React Development</h3>
+
+				<h6 class="service-course">React / HTML5 / CSS3 | SASS / ES7 / APIs </h6>
+
+				<p class="service-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p service-link> 
+					<strong>Puedes verlo en:</strong> <a>platzi.com</a>
+				</p>
+
+				<p  class="service-description">
+					Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+				</p>
+
+			</div>
+			<figure class="service-image-container">
+
+				<img class="service-image" 
+					 src="./images/platzi-video-react-native.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+
+		<article class="service">
+
+			<div class="service-text">
+				<h3 class="service-title">Part-time Frontend Development</h3>
+
+				<h6 class="service-course">React / HTML5 / CSS3 | SASS / ES7 / APIs </h6>
+
+				<p class="service-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p service-link> 
+					<strong>Puedes verlo en:</strong> <a>platzi.com</a>
+				</p>
+
+				<p>
+					Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+				</p>
+
+			</div>
+			<figure class="service-image-container">
+
+				<img class="service-image" 
+					 src="./images/platzi-video-react-native.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+
+		<article class="service">
+
+			<div class="service-text">
+				<h3 class="service-title">Development 4 Project</h3>
+
+				<h6 class="service-course">React / HTML5 / CSS3 | SASS / ES7 / APIs </h6>
+
+				<p class="service-date">
+					<small> <strong>Fecha:</strong> 03/03/19</small>
+				</p>
+
+				<p service-link> 
+					<strong>Puedes verlo en:</strong> <a>platzi.com</a>
+				</p>
+
+				<p>
+					Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+				</p>
+
+			</div>
+			<figure class="service-image-container">
+
+				<img class="service-image" 
+					 src="./images/platzi-video-react-native.png"
+					 width="500px" 
+				>
+			</figure>
+		</article>
+		</div>
+	</section>
+
+
+	<section class="contact" id="contacto">
+	<div class="container">
+		<form class="contact-form">
+
+			<h2>¿Creamos algo juntos?</h2>
+
+			<a class="contactForm-submit" href="mailto:danielpaezsw66@gmail.com?Subject=Hola%20Daniel" target="_blank">
+			Enviar un correo
+			</a>
+		</form>
+
+		<section class="social">
+
+			<a href="https://twitter.com/heysoypaez" class="social-link twitter"></a>
+			<a href="https://github.com/heysoypaez/" class="social-link github"></a>
+			<a href="https://www.linkedin.com/in/heysoypaez/" class="social-link linkedin"></a>
+			<p>No me sigas, compartamos</p>
+		</section>
+	</div>
+	</section>
+
+<!-- footer  -->
+	<footer class="footer">
+	<div class="container">
+
+		<section>
+			<p>Powered by Platzi Courses
+				<img src="./images/platzi.png" alt="platzi logo" class="logo" />
+			</p>
+		</section>
+
+		<section>
+			<p>
+				<a href="https://github.com/heysoypaez/heysoypaez-website">Web en mejora constante :)</a>
+			</p>
+		</section>
+	</div>
+	</footer>
 
 </body>
 </html>
+
+
