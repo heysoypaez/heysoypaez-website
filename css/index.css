@@ -249,7 +249,11 @@ ___________________________*/
 	}
 
 	.project-image-container {
-		width: 400px;
+			
+				box-shadow: 5px 5px 5px gray;
+				object-fit: cover;
+
+
 		}
 
 	.project strong {
@@ -302,6 +306,7 @@ _____________________*/
 	font-size: 26px;
 	width: 900px;
 	margin-top: 20px;
+	text-align: center;
 
 }
 
@@ -437,33 +442,25 @@ _____________________*/
 
 }
 
-.contact-form input {
-
-	border: 1px solid gray;
-	border-radius: 10px;
-
-	padding: 15px 20px 15px 35px;
-
-	display: block;
-
-	background-image: url("../images/envelope.svg");
-	background-size: 20px 20px;
-	background-repeat: no-repeat;
-	background-position-y: center;
-	background-position-x: 5px;
-}
-
-.contact-form button {
+.contact-form a {
 	display: block;
 	margin-top: 10px;
 	background-color: transparent;
 
-	padding: 10px 20px;
+	padding: 10px 30px;
 
 	font-size: 18px;
 
 	color: white;
 	border: solid 1px;
+
+		background-image: url("../images/envelope.svg");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+
+	text-decoration: none;
 }
 
 .social-link {
