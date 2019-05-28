@@ -68,6 +68,13 @@ ___________________________*/
 /*Layout Elements
 ------------------------------------------------*/
 
+.blog {
+	margin: 30vh 5vw;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+
 /* Header Class
 __________________________________________*/
 
