@@ -75,6 +75,11 @@ ___________________________*/
 	line-height: 30px;
 }
 
+.blog a {
+	color: white;
+	text-decoration: none;
+}
+
 /* Header Class
 __________________________________________*/
 
