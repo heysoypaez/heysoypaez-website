@@ -75,9 +75,8 @@ ___________________________*/
 	line-height: 30px;
 }
 
-.blog a {
-	color: white;
-	text-decoration: none;
+.blog-building-mode {
+	padding: 10vh 0;
 }
 
 /* Header Class
