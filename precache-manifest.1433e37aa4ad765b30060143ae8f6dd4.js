@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d271deaee778ab9da9126d452a932360",
+    "revision": "652ee8e9e1b55db0d94e4f1e933a50a6",
     "url": "/heysoypaez-website/index.html"
   },
   {
-    "revision": "0b96b308596dbc9d0798",
+    "revision": "1f4470c965669d3768ad",
     "url": "/heysoypaez-website/static/css/main.4e882255.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/heysoypaez-website/static/js/2.c648bf82.chunk.js"
   },
   {
-    "revision": "0b96b308596dbc9d0798",
-    "url": "/heysoypaez-website/static/js/main.50e344a5.chunk.js"
+    "revision": "1f4470c965669d3768ad",
+    "url": "/heysoypaez-website/static/js/main.e70b8f2d.chunk.js"
   },
   {
     "revision": "fd97c17ae659f318bd09",

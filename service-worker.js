@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/heysoypaez-website/precache-manifest.db6bcc978f51be5e07e0a22a6e0d40b0.js"
+  "/heysoypaez-website/precache-manifest.1433e37aa4ad765b30060143ae8f6dd4.js"
 );
 
 self.addEventListener('message', (event) => {
