@@ -47,8 +47,9 @@ _____________________*/
 		width: 80px;
 		height: 80px;
 		margin: 10px;
-	text-decoration: none;
-	color: white;
+		text-decoration: none;
+		color: white;
+
 	}
 
 	.social-link.twitter {
