@@ -1,0 +1,151 @@
+/*
+
+ Palette Colors
+ ==============
+gris oscuro = #1d252c
+gris claro = #626262
+background gris = 1b2127
+celeste = 026fff
+gris claro claro = fafafa
+
+
+
+Index of Contents
+=================
+
+- Base Elements
+	- Body tag
+	- Heading tags
+- Layout Element
+	- Header Class
+	- Hero Class 
+	- Project Class
+
+---------------------------------
+
+*/
+
+/*Base Elements
+------------------------------------------------*/
+
+* {
+margin: 0;
+}
+
+/* Body tag
+_________________________*/
+
+	body {
+		font-family: "Source Sans Pro",Arial, sans-serif;
+	}
+
+	
+
+
+/*Heading Tags
+___________________________*/
+
+	h1 , h2 , h3 , h4 , h5 , h6 {
+
+		font-size: 30px;
+		font-family: "Fjalla One"
+
+	}
+
+	h1 {
+		line-height: 150%; /*el alto y medio de la tipografia*/
+		font-size: 40px;
+
+		/*Estilos de fuentes*/
+		font-weight: normal;
+		letter-spacing: -.2px;
+		text-transform: capitalize;
+		margin: 0;
+		padding: 15px
+	}
+
+
+/*Layout Elements
+------------------------------------------------*/
+
+.blog {
+	margin: 30vh 5vw;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+
+.blog-building-mode {
+	padding: 10vh 0;
+}
+
+
+/* Filtering people
+___________________________-*/
+
+	.filtering-people {
+		padding: 0 15%;
+		
+	}
+
+	.filtering-people h1 {
+		text-align: center;
+	}
+
+	.filtering-people p {
+		font-size: 18px;
+	}
+
+
+
+
+/*Footer
+-------------*/
+
+	.footer {
+
+			display: flex;
+
+			/*Colores*/
+			background-color: #1b2127;
+			color: white;
+
+			/*Modelo de Caja*/
+			width: 96%;
+			margin: 0;
+			padding: 0 2%;
+			height: 89px;
+
+			/*Alineacion*/
+			align-items: center;
+			justify-content: space-between;
+
+			/*Ornamentos*/
+			border-top: 1px solid white;
+
+		}
+
+	.footer .logo {
+		height: 30px;
+		display: inline;
+		vertical-align: middle;
+	}
+
+	.footer a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+
+	.container {
+
+		width: 1300px;
+		margin: 0 auto;
+		display: inherit;
+		justify-content: inherit;
+		align-items: inherit;
+		height: inherit;
+		flex-wrap: inherit;
+
+	}
