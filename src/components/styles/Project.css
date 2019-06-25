@@ -1,0 +1,76 @@
+
+	/* Project Class
+	___________________________*/
+
+.project {
+			background-color: white;
+			display: flex;
+
+			padding: 20px;
+
+			border: 1px solid lightgray;
+			border-radius: 10px;
+
+			border-bottom-right-radius: 60px;
+
+			margin: 10px auto;
+			margin-bottom: 15px;
+			max-width: 900px;
+			width: 80vw;
+
+			box-shadow: 5px 5px 5px gray;
+
+			justify-content: space-around;
+			align-items: center;
+			overflow: hidden;
+
+		}
+
+		   @media screen and (max-width: 600px) {
+
+		   	.project {
+		   		flex-wrap: wrap;
+		   	}
+		   }
+
+
+		.project-text {
+
+			width: 250px;
+			padding: 10px;
+			padding-top: 30px;
+
+		}
+
+		.project-title {
+			font-size: 24px;
+		}
+
+		.project-course {
+			color: gray;
+			font-size: 14px;
+			padding: 8px 0;
+		}
+
+		.project-description {
+			margin: 15px 0;
+			font-size: 18px;
+		}
+
+		.project-image-container {
+				
+					box-shadow: 5px 5px 5px gray;
+					width: 80%;
+				
+			}
+
+		.project-image {
+			
+			width: 100%;
+			
+		}
+
+		.project strong {
+			font-family: "Fjalla One" sans-serif;
+			font-size: 14px;
+		}

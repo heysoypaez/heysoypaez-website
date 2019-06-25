@@ -1,0 +1,25 @@
+
+/*Portfolio Class
+__________________________________________*/
+
+
+	.portfolio {
+		background-color: #f9f9f9;
+		margin: 0;
+		padding: 30px 5px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.portfolio h2 {
+		text-transform: uppercase;
+		color: #026fff;
+		padding: 20px;
+		padding-bottom: 40px;
+		font-family: "Source Sans Pro",Arial, sans-serif;
+		font-weight: bold;
+		font-size: 26px;
+
+	}
+

@@ -1,0 +1,85 @@
+/* Service Class
+___________________________*/
+
+
+ .Services {
+	
+		padding: 30px 5px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+	}
+
+	.Services ul li {
+		list-style-image: url("../../public/check-mark.svg");
+	}
+		
+	.Services-title {
+		width: 90vw;
+		text-align: center;
+	}
+
+
+
+	.Service {
+		background-color: black;
+		color: white;
+		display: flex;
+
+		border: 1px solid lightgray;
+		border-radius: 10px;
+		border-bottom-right-radius: 60px;
+
+		width: 80vw;
+		max-width: 500px;
+
+		margin: 10px;
+
+		padding: 20px;
+
+		box-shadow: 5px 5px 5px gray;
+
+		justify-content: space-around;
+		align-items: center;
+		overflow: hidden;
+
+	}
+
+	@media only screen and (max-width:425px)  {
+		.Service {
+			flex-wrap: wrap;
+		}
+	}
+
+	.Service-text {
+
+		width: 250px;
+		padding-top: 30px;
+
+	}
+
+	.Service-title {
+		font-size: 24px;
+	}
+
+	.Service-course {
+		color: gray;
+		font-size: 14px;
+		padding: 8px 0;
+	}
+
+	.Service-description {
+		margin: 15px 0;
+		font-size: 18px;
+	}
+
+	.Service-image-container {
+		width: 300px;
+		}
+
+	.Service strong {
+		font-family: "Fjalla One" sans-serif;
+		font-size: 14px;
+	}
+
