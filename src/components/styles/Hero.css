@@ -16,10 +16,10 @@ __________________________________________*/
 		padding: 5% 10%;
 		}
 
-	.Hero h1 {
+	.Hero-title {
 		
-		font-size: 2.4;
-
+		width: 350px;
+		max-width: 80%;
 	}
 
 	.Hero h1 strong {

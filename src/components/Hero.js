@@ -8,12 +8,14 @@ function Hero(props) {
 	
 	return(
       <section className="Hero">
-            <div className="container">
-            <h1>
-              Hello, <strong>Daniel Páez</strong> acá <br />
-              <strong>Ethical  Software </strong> Developer <br />
-              <strong>¡React Developer!</strong>
+        <div className="container">
+
+            <h1 className="Hero-title">
+              Hello, <strong>Daniel Páez</strong> acá 
+              <strong> Ethical Software </strong> Developer 
+              <strong> ¡React Developer! </strong>
             </h1>
+            
             <iframe
               src={videoHero}
 
@@ -24,7 +26,7 @@ function Hero(props) {
               allowFullScreen
             >
             </iframe> 
-           </div>
+          </div>
       </section>
 
 	)
