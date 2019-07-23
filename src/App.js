@@ -6,6 +6,11 @@ import Blog from "./pages/Blog.js"
 import Layout from "./components/Layout.js"
 
 import {BrowserRouter, Switch, Route} from "react-router-dom"
+import BlogPost from "./components/BlogPost.js"
+
+import Contact from "./pages/Contact.js"
+
+import LandingForRecruiters from "./landings/LandingForRecruitersContainer.js";
 
 import "./App.css"
 
@@ -16,7 +21,13 @@ function App(props) {
       <Switch>
       <Layout>
         <Route exact path="/" component={Home} />
-        <Route path="/blog" component={Blog} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog/como-empezar-a-programar" component={BlogPost} />
+        <Route exact path="/contacto" component={Contact} />
+
+        <Route exact path="/reclutador" component={LandingForRecruiters} />
+
+
       </Layout>
       </Switch>
     </BrowserRouter>

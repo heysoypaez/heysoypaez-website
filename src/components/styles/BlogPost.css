@@ -1,0 +1,7 @@
+.BlogPost-article {
+	padding: 5% 12%;
+}
+
+.BlogPost-article h1, .BlogPost-article h2, .BlogPost-article p {
+	margin: 3% 0;
+}

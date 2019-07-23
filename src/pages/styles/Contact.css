@@ -1,0 +1,9 @@
+.Contact {
+	text-align: center;
+	padding: 5% 10%;
+	height: 65vh;
+}
+
+.Contact a {
+	text-decoration: none;
+}

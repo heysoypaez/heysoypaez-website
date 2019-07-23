@@ -55,12 +55,20 @@ function Navbar(props) {
                 </li>
 
                 <li>
-                  <a className="link" href="https://www.linkedin.com/in/heysoypaez/detail/recent-activity/posts/" target="_blank"  rel="noopener noreferrer">Blog</a>
+                  <a className="link" href="https://www.linkedin.com/in/heysoypaez/detail/recent-activity/posts/" target="_blank"  rel="noopener noreferrer">Blog en linkedin</a>
                 </li>
+
+              <Link to="/blog">
+                Blog
+              </Link>
 
                 <li>
                   <a className="link" href="#contacto">Trabajemos Juntos</a>
                 </li>
+
+                <Link to="/contacto">
+                Contacto
+              </Link>
               </ul>
             </nav>
             </div>
