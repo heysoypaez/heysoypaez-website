@@ -2,23 +2,18 @@ import React from 'react';
 
 import Home from "./pages/Home.js"
 import Blog from "./pages/Blog.js"
-
-import Layout from "./components/Layout.js"
-
-import {BrowserRouter, Switch, Route} from "react-router-dom"
-import BlogPost from "./components/BlogPost.js"
-
 import Contact from "./pages/Contact.js"
 import Linkedin from "./pages/Linkedin.js"
-
+import Layout from "./components/Layout.js"
+import BlogPost from "./components/BlogPost.js"
+import {BrowserRouter, Switch, Route} from "react-router-dom"
 import LandingForRecruiters from "./landings/LandingForRecruitersContainer.js";
-
 import "./App.css"
 
 function App(props) {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
       <Layout>
         <Route exact path="/" component={Home} />
@@ -29,13 +24,10 @@ function App(props) {
         <Route exact path="/reclutador" component={LandingForRecruiters} />
         <Route exact path="/linkedin" component={Linkedin} />
 
-
       </Layout>
       </Switch>
     </BrowserRouter>
   )
-
-
 }
 
 export default App;

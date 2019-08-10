@@ -1,0 +1,9 @@
+{
+	"posts": [
+		{
+		"id": 1,
+		"title": "Como empezar a programar: mi experiencia",
+		"content": "<h2>Hola</h2><p>Soy el contenido</p>"			
+		}
+	]
+}

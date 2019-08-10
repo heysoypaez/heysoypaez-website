@@ -1,29 +1,35 @@
 import React from "react";
-import BlogPosts from "../components/BlogPosts.js"
 
-import {Link} from "react-router-dom";
+import BlogPostLink from "../components/BlogPostLink.js"
+import data from "../data.json";
+import "./styles/Blog.css";
 
 function BlogPage(argument) {
 	// body...
+
 	return(
-	      <section>
-	     
-	   
-	      	 
-	      	 <article className="BlogPost" >
-	      	 		<Link to="/blog/como-empezar-a-programar">
-	      	 		<h1>Cómo empezar en la programación y cómo la descubrí yo</h1>
-	      	 		</Link>
-	      	 </article>
+	   <section className="BlogPage">
 
-	      	  <article className="BlogPost" >
-	      	 		<Link to="/blog/como-empezar-a-programar">
-	      	 		<h1>Cómo empezar en la programación y cómo la descubrí yo</h1>
-	      	 		</Link>
-	      	 </article>
+	   		<h1>Un blog para sumar</h1>
+		     
+		     <BlogPostLink 
+		     	url="/blog/como-empezar-a-programar"
+		     	title="Cómo empezar en la programación y cómo la descubrí yo"
+		     />
 
-	      </section>
-	      
+		     <BlogPostLink 
+		     	url="/blog/como-empezar-a-programar"
+		     	title="Cómo empezar en la programación y cómo la descubrí yo"
+		     />
+
+		     <BlogPostLink 
+		     	url="/blog/como-empezar-a-programar"
+		     	title="Cómo empezar en la programación y cómo la descubrí yo"
+		     />	
+
+
+
+	   </section>
 	 )
 }
 
