@@ -9,6 +9,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 import BlogPost from "./components/BlogPost.js"
 
 import Contact from "./pages/Contact.js"
+import Linkedin from "./pages/Linkedin.js"
 
 import LandingForRecruiters from "./landings/LandingForRecruitersContainer.js";
 
@@ -26,6 +27,7 @@ function App(props) {
         <Route exact path="/contacto" component={Contact} />
 
         <Route exact path="/reclutador" component={LandingForRecruiters} />
+        <Route exact path="/linkedin" component={Linkedin} />
 
 
       </Layout>
