@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://heysoypaez.github.io/heysoypaez-website/,
+  "homepage": "https://heysoypaez.github.io/heysoypaez-website/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
